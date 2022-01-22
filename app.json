@@ -1,7 +1,7 @@
 {
-    "name": "Kaztroser ",  
-    "description": "Kaztroser is the Modified Version of WhatsAsena, Made By @Aj-fx with Baileys.",
-    "logo": "https://i.imgur.com/jDkKLYG.jpeg",
+    "name": "Kalan_ser ",  
+    "description": "Kalan_ser is the Modified Version of WhatsAsena, Made By @Ajx-Abu with Baileys.",
+    "logo": "https://i.ibb.co/djHYQv4/20220118-080338.jpg",
     "keywords": ["whatsapp", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
     "repository": "https://github.com/Amal-ser/Amalser",
     "website":   "https://github.com/farhan-dqz/Julie-Mwol",
@@ -16,8 +16,8 @@
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
             "required": false
         },
-         "INSTA_PASSWORD": {
-            "description": "enter the password, to get password request owner http://wa.me/918281440156  .",
+         "YT_PASSWORD": {
+            "description": "enter the password, to get password request yt link https://youtube.com/channel/UCvWLxIw5MQvbD7It9A5-3Ow  .",
             "required": true
         },
         "LANGUAGE": {
@@ -38,12 +38,12 @@
         "LG_LOGO": {
             "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "https://i.imgur.com/yQWf4ty.jpeg"
+            "value": "https://i.ibb.co/djHYQv4/20220118-080338.jpg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
             "required": true,
-            "value": "Kaztroser"
+            "value": "Kalanser"
         },
         "ALIVE_BUTTON": {
             "description": "Set the alive message two name",
@@ -176,7 +176,7 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": true,
-            "value": "༺══✘ᴋⷪᴀᷫᴢᷫᴛᷝʀⷭᴏᷝsⷶᴇᷞʀ✘══༻"
+            "value": "༺══✘K̥ͦḀͦL̥ͦḀͦN̥ͦ-S̥ͦE̥ͦR̥ͦ✘══༻"
         },
         "WORK_TYPE": {
             "description": "Amalser Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -195,17 +195,17 @@
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
-            "value": "Ajfx"
+            "value": "KALAN-SER"
         },
         "OWNER_NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
             "required": false,
-            "value": "918281440156"
+            "value": "916238532742"
         },
         "NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
             "required": false,
-            "value": "918281440156"
+            "value": "916238532742"
         },
         "DEPLOYER": {
             "description": "enter your name here",
