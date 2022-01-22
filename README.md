@@ -7,10 +7,10 @@
 
 <div align="center">
   <p align="center">
-<img src=https://i.imgur.com/jDkKLYG.jpeg>
+<img src=https://i.ibb.co/djHYQv4/20220118-080338.jpg
 </p>
   <p align="center">
-<a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-ꪶ͢ᴀᴊ ғxꫂ⁩-cyberchekuthan/Kaztro-ser?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-KALANABU⁩-cyberchekuthan/Kaztro-ser?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
