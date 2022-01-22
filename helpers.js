@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Kaztroser*:  ```" + msg + "```"
+    return "✅ *Kalanser*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *Kaztroser*:  ```" + msg + "```"
+    return "🛑 *Kalanser*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *Kaztroser*:  ```" + msg + "```"
+    return "⏺️ *Kalanser*:  ```" + msg + "```"
 }
 
 
