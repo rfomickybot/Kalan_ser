@@ -114,13 +114,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.AFPLK == 'kaztroser' || config.AFPLK == 'ajfx' || config.AFPLK == 'vava' || config.AFPLK == 'Kaztroser') {
+        if (config.AFPLK == 'kalanser' || config.AFPLK == 'KALAN' || config.AFPLK == 'vava' || config.AFPLK == 'Kalanser') {
         //thanks to afnanplk
         console.log(
             chalk.green.bold('thanks for watching -key cofirmed-')
         );
          }
-         else if (config.AFPLK !== 'kaztroser' || config.AFPLK !== 'ajfx' || config.AFPLK !== 'vava' || config.AFPLK !== 'Kaztroser') {
+         else if (config.AFPLK !== 'kalanser' || config.AFPLK !== 'KALAN' || config.AFPLK !== 'vava' || config.AFPLK !== 'Kalanser') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
@@ -154,13 +154,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('ᴋᴀᴢᴛʀᴏsᴇʀᴠ2 ᴡᴏʀᴋɪɴɢ ' + config.WORKTYPE + ' ɴᴏᴡ 💙'));
+            chalk.green.bold('kalan ser working ' + config.WORKTYPE + ' new 💙'));
           // thanks to afnanplk
 	    if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
-                    await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);    
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./photo/amalser.png"), MessageType.image, { caption: `*ʜᴇʏ ʙʀᴏ ᴋᴀʟᴀɴ sᴇʀ ᴡᴏʀᴋɪɴɢ ` + config.WORKTYPE + ` 🥂* \n\n*ᴛʜᴀɴᴋʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴋᴀʟᴀɴ_sᴇʀ_ʙᴏᴛ🥂*`});
                 } else {
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
@@ -277,8 +277,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Kaztroser ~______~*' +
-                                    '\n*🌀 Follow this page other wise chance to get erorr: https://instagram.com/_aj_fx._?utm_medium=copy_link*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ KALAN SER ~______~*' +
+                                    '\n*🌀 Follow this page other wise chance to get erorr: https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
