@@ -4,7 +4,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Julie.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+    Julie.addCommand({pattern: 'kalan', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
         if (message.jid === '15369524516-1612300121@g.us') {
 
@@ -12,7 +12,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Kaztroserv1 by Ajayan*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*Kalanser by Kalan*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text);
@@ -30,7 +30,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Kaztroserv1 by Ajayan*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*Kalanser by Kalan*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n--------------------', MessageType.text);
