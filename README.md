@@ -45,7 +45,7 @@ GET QR
 $ apt install git
 $ apt install nodejs --fix-missing
 $ git clone https://github.com/Ajx-Abu/Kalan_ser
-$ cd Kaztro-ser
+$ cd Kalan_ser
 $ npm install @adiwajshing/baileys
 $ npm install chalk
 $ node julie.js
@@ -54,7 +54,7 @@ $ node julie.js
 ```js
 SETUP
 $ git clone https://github.com/Ajx-Abu/Kalan_ser
-$ cd Kaztro-ser
+$ cd Kalan_ser
 $ npm i
 $ node julie.js
 ```
