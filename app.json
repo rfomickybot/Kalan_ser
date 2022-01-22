@@ -1,7 +1,7 @@
 {
     "name": "Kalan_ser ",  
     "description": "Kalan_ser is the Modified Version of WhatsAsena, Made By @Ajx-Abu with Baileys.",
-    "logo": "https://i.ibb.co/djHYQv4/20220118-080338.jpg",
+    "logo": "https://i.ibb.co/1X3Bjsy/91-6238-532-742-20220122-064935.jpg",
     "keywords": ["whatsapp", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
     "repository": "https://github.com/Amal-ser/Amalser",
     "website":   "https://github.com/farhan-dqz/Julie-Mwol",
@@ -17,7 +17,7 @@
             "required": false
         },
          "INSTA_PASSWORD": {
-            "description": "enter the password, to get password request Owner .",
+            "description": "enter the password, to get password request owner http://wa.me/917025994178  .",
             "required": true
         },
         "LANGUAGE": {
@@ -38,12 +38,12 @@
         "LG_LOGO": {
             "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "https://i.ibb.co/djHYQv4/20220118-080338.jpg"
+            "value": "https://i.ibb.co/1X3Bjsy/91-6238-532-742-20220122-064935.jpg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
             "required": true,
-            "value": "Kalanser"
+            "value": "Kaztroser"
         },
         "ALIVE_BUTTON": {
             "description": "Set the alive message two name",
@@ -176,7 +176,7 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": true,
-            "value": "༺══✘K̥ͦḀͦL̥ͦḀͦN̥ͦ-S̥ͦE̥ͦR̥ͦ✘══༻"
+            "value": "༺══✘K̆̈Ă̈L̆̈Ă̈N̆̈S̆̈Ĕ̈R̆̈✘══༻"
         },
         "WORK_TYPE": {
             "description": "Amalser Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -195,7 +195,7 @@
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
-            "value": "KALAN-SER"
+            "value": "AJX-KALAN"
         },
         "OWNER_NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
