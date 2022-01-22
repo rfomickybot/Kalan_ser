@@ -1,4 +1,4 @@
-/* Kaztroserv1 Bot
+/* Kᴀʟᴀɴv1 Bot
 Re-edit Aj-fx
 */
 
@@ -29,7 +29,7 @@ Amalser.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (a
       
       const buttonMessage = {
           contentText: '```'+Config.BOT+'\n\n```'+Config.ALIVEMSG+'\n',
-          footerText: 'ᴋⷪᴀᷫᴢᷫᴛᷝʀⷭᴏᷝsⷶᴇᷞʀ',
+          footerText: 'Kᴀʟᴀɴsᴇʀ',
           buttons: buttons,
           headerType: 1
       }
