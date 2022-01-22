@@ -7,22 +7,22 @@ const Lang = Language.getString('wallpaper');
 
 Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
 
-    var skl = await axios.get("https://i.imgur.com/jDkKLYG.jpeg", { responseType: 'arraybuffer' })
+    var skl = await axios.get("https://i.ibb.co/djHYQv4/20220118-080338.jpg", { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Bot Name Kaztroser*
+    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Bot Name Kalanser*
 
-*Creator number : wa.me/918281440156?text=Hi%20Aj-fx%20bro.%20*
+*Cʀᴇᴀᴛᴏʀ number : wa.me/916238532742?text=Hi%20KALAN%20bro.%20*
 
 
- *Efx audios : https://chat.whatsapp.com/FmZqZDpjgyv8f2jVzfcGwp*
+ *Kᴀʟᴀɴ Bᴏᴛ Gʀᴏᴜᴘ : https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk*
      
- *Instagram id: https://instagram.com/_ajayan_007?utm_medium=copy_link*
+ *Yᴏᴜᴛʜᴏʙᴇ Lɪɴᴋ: https://youtube.com/channel/UCvWLxIw5MQvbD7It9A5-3Ow*
 
- *Bot zone: https://chat.whatsapp.com/L38gYwSPTBILW3K4kdvMY1*
+ *Kᴀʟᴀɴ Bᴏᴛ Oᴡɴᴇʀs : Kᴀʟᴀɴ :- http://wa.me/916238532742 »»» Aʙᴜ Sᴇʀ :-http://wa.me/917025994178*
 
- *github link : https://github.com/Aj-fx/Kaztro-ser*
+ *Gɪᴛ Lɪɴᴋ Fᴏʀ Bᴏᴛ Mᴀᴋɪɴɢ : https://github.com/Ajx-Abu/Kalan_ser*
 
- *ᴀᴊ-ғxꫂ⁩..♡︎*
+ *ᴋᴀʟᴀɴ-sᴇʀꫂ⁩..♡︎*
 `}) 
 
 }));
