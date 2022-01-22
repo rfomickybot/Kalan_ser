@@ -1,8 +1,11 @@
 <div align="center">
+  <p align="center">
+<img src=https://i.ibb.co/PQnM1QR/11347cf4f4898fea1d5ce037bbdacbbc.png
+</p>
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F7000&lines=Welcome+to+ᴋⷪᴀᷫᴢᷫᴛᷝʀⷭᴏᷝsⷶᴇᷞʀ+WA+Bot+repo;Created+by+Aj+fx;This+is+a+userbot+privet+and+public+bot;With+more+features)](https://git.io/typing-svg)
-
- </a>
+<div align="center">
+  <p align="center">
+<img src=https://i.ibb.co/CVw6gsM/09f209ca7a395d0919ef0a94398c35a1.png
 </p>
 
 <div align="center">
