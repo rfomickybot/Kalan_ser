@@ -1,27 +1,41 @@
-const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
-const axios = require('axios');
+/* Copyright (C) 2021 AMALSER.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+Amalser - Amal
+Wa.me/+918281440156
+*/
 
-const Language = require('../language');
-const Lang = Language.getString('wallpaper');
+const Neotro = require('../events');
+const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
+const fs = require('fs');
+const Config = require('../config')
+const axios = require('axios')
+const request = require('request');
+const os = require('os');
+var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
+var ggg = Buffer.from(clh.cd, 'base64')
+var ddd = ggg.toString('utf-8')
 
-Asena.addCommand({pattern: 'owner', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
 
-    var skl = await axios.get("https://i.imgur.com/G2m5gTt.jpeg", { responseType: 'arraybuffer' })
-
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Bot owner Aj-fx💞*
-
-*Creator number : wa.me/918281440156?text=Hi%20Aj-fx%20bro.%20*
-
- *Efx audios : https://chat.whatsapp.com/FmZqZDpjgyv8f2jVzfcGwp*
-     
- *Instagram id: https://instagram.com/_ajayan_007?utm_medium=copy_link*
-
- *Bot zone: https://chat.whatsapp.com/L38gYwSPTBILW3K4kdvMY1*
-
- *github link : ɢɪᴛʜᴜʙ ʟɪɴᴋ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ*
-
- *ᴀᴊ-ғxꫂ⁩..♡︎*
-`}) 
-
-}));
+Neotro.addCommand({pattern: 'owner', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+// send a list message!
+    const rows = [
+        {title: 'Kᴀʟᴀɴ Bᴏᴛ Oᴡɴᴇʀs Nᴜᴍʙᴇʀ', description: "⚙Bᴏᴛ Oᴡɴᴇʀ Nᴜᴍᴇʀ\n\n\n*◁ === Tʜɪs Oᴡɴᴇʀs Kᴀʟᴀɴ Sᴇʀ Nᴀɴʙᴜɴ Aɴᴅ Cʜᴜɴᴋs === ▷*\n\n🎭 *Kᴀʟᴀɴ Bᴏᴛ Bʏ Kᴀʟᴀɴ sᴇʀ *\n 🔮 http://wa.me/+916238532742.\n\n🎭 *Kᴀʟᴀɴ Bᴏᴛ Bʏ Aʙᴜ sᴇʀ sᴇʀ *\n 🔮 http://wa.me/+917025994178.\n\n🎭 *Kᴀʟᴀɴ Bᴏᴛ Bʏ Lᴜᴄᴋʏ Sᴇʀ*\n🔮 http://wa.me/+916238748280\n\n🎭 *Kᴀʟᴀɴ Bᴏᴛ Bʏ Kᴀʟɴ*\n🔮 http://wa.me/+916238532742\n\n🎭 *Kᴀʟᴀɴ Bᴏᴛ Bʏ Aᴘᴘᴜ Sᴇʀ*\n🔮 http://wa.me/+918590432917\n\n ", rowId:" rowid1"},
+        {title: 'Gɪᴛ', description: "Kᴀʟᴀɴ Sᴇʀ Bᴏᴛ Mᴀᴋɪɴɢ Lɪɴᴋ.\n\n\n*◁ === 🥰🤗 Gɪᴛ Lɪɴᴋ === ▷*\n\nhttps://github.com/Ajx-Abu/Kalan_ser\n\n ", rowId:"rowid2"},
+        {title: 'Kᴀʟᴀɴ Bᴏᴛ Oғғɪᴄᴀʟ Gʀᴏᴜᴘ Bʏ Kᴀʟᴀɴ', description: "Gʀᴏᴜᴘ Lɪɴᴋ .\n\n\nhttps://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk\n\n ", rowId:" rowid5"},
+        {title: 'Kᴀʟɴ Sᴇʀ Cʜᴀɴᴀʟ Lɪɴᴋ ', description: "Kᴀʟᴀɴ Bᴏᴛ Mᴀᴋɪɴɢ Vɪᴅᴇᴏ Tʜɪs Cʜᴀɴᴀʟ\n\n\n*Kᴀʟᴀɴ Sᴇʀ Cʜᴀɴᴀʟ Sᴜʙsᴄʀᴀɪʙᴇ*\n\n*https://youtu.be/OYhA_ZNQ4GQ* ", rowId:" rowid6"},
+        {title: 'Bᴏᴛ Gʀᴏᴜᴘ Dᴇsᴄʀɪᴘᴛɪᴏɴ', description: "Nɪʏᴀᴍᴀᴍ Iɴɪ Eʟʟᴀᴠᴀʀᴋᴋᴜᴍ Bᴀᴅʜᴀᴋᴀ Mᴀɴ \n\n\n☃️ᴏɴɴᴜᴍ ɪʟʟᴀ ɢʀᴏᴜᴘ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ😁 \n\n  ", rowId:" rowid7"}
+       ]
+       
+       const sections = [{title: "Kᴀʟᴀɴ sᴇʀ ❤️", rows: rows}]
+       
+       const button = {
+        buttonText: '💚Kᴀʟᴀɴ Bᴏᴛ💚',
+        description: "💖✻Kᴀʟᴀɴ Sᴇʀ Bᴏᴛ✻💖",
+        sections: sections,
+        listType: 1
+       }
+       
+       await message.client.sendMessage(message.jid, button, MessageType.listMessage)
+    
+    }));
