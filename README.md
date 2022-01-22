@@ -9,6 +9,10 @@
   <p align="center">
 <img src=https://i.ibb.co/djHYQv4/20220118-080338.jpg
 </p>
+
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F7000&lines=WELCOME+TO+KALANSER+WA+BOT+REPO;CREATED+BY+AJX+KALAN;THIS+IS+A+USERBOT+PRIVATE+AND+PUBLIC+BOT;WITH+MORE+FEATHERS)](https://git.io/typing-svg)
+
+
   <p align="center">
 <a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-KALAN-cyberchekuthan/Abu_ser?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
