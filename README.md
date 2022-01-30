@@ -39,7 +39,7 @@ Project created by <a href="https://github.com/cyberchekuthan">Kalan-ser</a> to 
 
   ### Simple Method
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ajx-Abu/Kalan_ser.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rfomickybot/Kalan_ser.git)
 
 
 
